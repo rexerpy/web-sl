@@ -56,7 +56,6 @@ export function Categorias({ manejarNavegacion }: PropiedadesCategorias) {
   return (
     <section id="categorias" className="py-16 px-4 md:px-6">
       <div className="container mx-auto">
-<<<<<<< HEAD
         <h2 className="text-2xl md:text-3xl font-bold tracking-tighter mb-8">Categorías</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Categoría Hombre */}
@@ -73,27 +72,10 @@ export function Categorias({ manejarNavegacion }: PropiedadesCategorias) {
                   onImagenClick={abrirModalHombre}
                 />
               </div>
-=======
-        <h2 className="text-3xl font-bold tracking-tighter mb-8">Categorías</h2>
-        {/* Ajustamos el grid y las dimensiones para coincidir con destacados */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* Categoría Hombre */}
-          <div className="group relative aspect-square overflow-hidden rounded-lg">
-            <div className="absolute inset-0">
-              <MiniCarrusel
-                imagenes={imagenesHombre}
-                className="h-full"
-                intervalo={5000}
-                mostrarControles={true}
-                mostrarIndicadores={true}
-                onImagenClick={abrirModalHombre}
-              />
->>>>>>> 6b22277e5a4531ebcf845aad9bb42b3ebfd69f5d
             </div>
           </div>
           
           {/* Categoría Mujer */}
-<<<<<<< HEAD
           <div>
             <h3 className="text-xl md:text-2xl font-semibold text-center mb-4">Mujeres</h3>
             <div className="group relative aspect-square overflow-hidden rounded-lg">
@@ -107,23 +89,10 @@ export function Categorias({ manejarNavegacion }: PropiedadesCategorias) {
                   onImagenClick={abrirModalMujer}
                 />
               </div>
-=======
-          <div className="group relative aspect-square overflow-hidden rounded-lg">
-            <div className="absolute inset-0">
-              <MiniCarrusel
-                imagenes={imagenesMujer}
-                className="h-full"
-                intervalo={5000}
-                mostrarControles={true}
-                mostrarIndicadores={true}
-                onImagenClick={abrirModalMujer}
-              />
->>>>>>> 6b22277e5a4531ebcf845aad9bb42b3ebfd69f5d
             </div>
           </div>
 
           {/* Categoría Accesorios */}
-<<<<<<< HEAD
           <div>
             <h3 className="text-xl md:text-2xl font-semibold text-center mb-4">Accesorios</h3>
             <div className="group relative aspect-square overflow-hidden rounded-lg">
@@ -137,18 +106,6 @@ export function Categorias({ manejarNavegacion }: PropiedadesCategorias) {
                   onImagenClick={abrirModalAccesorios}
                 />
               </div>
-=======
-          <div className="group relative aspect-square overflow-hidden rounded-lg">
-            <div className="absolute inset-0">
-              <MiniCarrusel
-                imagenes={imagenesAccesorios}
-                className="h-full"
-                intervalo={5000}
-                mostrarControles={true}
-                mostrarIndicadores={true}
-                onImagenClick={abrirModalAccesorios}
-              />
->>>>>>> 6b22277e5a4531ebcf845aad9bb42b3ebfd69f5d
             </div>
           </div>
         </div>
