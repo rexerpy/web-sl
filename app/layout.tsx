@@ -12,7 +12,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "S&L Tienda | Moda y Estilo en Coronel Oviedo",
+  title: "S&L Tienda",
   description:
     "Tienda de ropa exclusiva para damas y caballeros en Coronel Oviedo. Descubre nuestra colección de moda con diseños exclusivos y las últimas tendencias.",
   keywords:
