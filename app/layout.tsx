@@ -10,7 +10,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "S&L Tienda",
+  title: "S&L Tienda | Moda y Estilo en Coronel Oviedo",
   description:
     "Tienda de ropa exclusiva para damas y caballeros en Coronel Oviedo. Descubre nuestra colección de moda con diseños exclusivos y las últimas tendencias.",
   keywords:
@@ -43,6 +43,8 @@ export const metadata: Metadata = {
     locale: "es_PY",
     type: "website",
   },
+  // Mantenemos la configuración básica de Twitter Cards para una mejor compatibilidad
+  // con plataformas que usan este formato, aunque no uses Twitter específicamente
   twitter: {
     card: "summary_large_image",
     title: "S&L Tienda | Moda y Estilo en Coronel Oviedo",
@@ -66,10 +68,9 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "verificacion_google", // Reemplazar con el código real cuando esté disponible
+    google: "3tYoAJ8xzovAYksiB2rSXS8V_MNYjNujGUJYmnOQrlw",
   },
   category: "fashion",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -84,7 +85,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-
-import './globals.css'
